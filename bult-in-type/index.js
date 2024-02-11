@@ -1,0 +1,10 @@
+var firstName;
+var lastName;
+var fullName;
+var isActivation;
+firstName = "chibgatullah";
+lastName = "minhaz";
+fullName = firstName.concat(" " + lastName);
+isActivation = true;
+var result = "My First Name is ".concat(firstName, ", My Last Name is ").concat(lastName, ", My FullName is ").concat(fullName, ", my account activation is ").concat(isActivation);
+console.log(result);
